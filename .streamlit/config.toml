@@ -1,0 +1,9 @@
+# 앱 테마 (색을 바꾸면 화면 색이 바뀝니다)
+[theme]
+primaryColor = "#2E7D32"
+backgroundColor = "#FFFFFF"
+secondaryBackgroundColor = "#F1F8E9"
+textColor = "#1B1B1B"
+
+[server]
+maxUploadSize = 10

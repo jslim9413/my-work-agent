@@ -1,0 +1,10 @@
+# ⚠️ 절대 GitHub에 올리면 안 되는 비밀 파일
+.env
+.streamlit/secrets.toml
+
+# 실행하면서 생기는 파일
+output/
+__pycache__/
+.pytest_cache/
+*.pyc
+.venv/
