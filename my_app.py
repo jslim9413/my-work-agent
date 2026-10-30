@@ -68,7 +68,7 @@ week = parse_date_expression("이번 주", today)  # 이번 주 월~일 범위 (
 
 # 사이드바: 제목, 기준일과 요일, 사용 모델, 빠른 실행 버튼
 with st.sidebar:
-    st.title("내 업무 Agent")
+    st.title("그린팜 업무 비서")
     st.write(f"**기준일:** {today.isoformat()} ({WEEKDAYS[today.weekday()]}요일)")
     st.write(f"**사용 모델:** {config.MODEL}")
     st.divider()
